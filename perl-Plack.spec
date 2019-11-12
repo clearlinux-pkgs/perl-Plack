@@ -4,7 +4,7 @@
 #
 Name     : perl-Plack
 Version  : 1.0047
-Release  : 1
+Release  : 2
 URL      : https://cpan.metacpan.org/authors/id/M/MI/MIYAGAWA/Plack-1.0047.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/MI/MIYAGAWA/Plack-1.0047.tar.gz
 Summary  : 'Perl Superglue for Web frameworks and Web Servers (PSGI toolkit)'
@@ -14,6 +14,29 @@ Requires: perl-Plack-bin = %{version}-%{release}
 Requires: perl-Plack-license = %{version}-%{release}
 Requires: perl-Plack-man = %{version}-%{release}
 Requires: perl-Plack-perl = %{version}-%{release}
+Requires: perl(Apache2::RequestRec)
+Requires: perl(Apache::LogFormat::Compiler)
+Requires: perl(CGI::Emulate::PSGI)
+Requires: perl(Cookie::Baker)
+Requires: perl(Devel::StackTrace)
+Requires: perl(Devel::StackTrace::AsHTML)
+Requires: perl(File::ShareDir)
+Requires: perl(File::pushd)
+Requires: perl(HTTP::Date)
+Requires: perl(HTTP::Entity::Parser)
+Requires: perl(HTTP::Headers)
+Requires: perl(HTTP::Headers::Fast)
+Requires: perl(HTTP::MultiPartParser)
+Requires: perl(HTTP::Request)
+Requires: perl(HTTP::Response)
+Requires: perl(HTTP::Status)
+Requires: perl(Hash::MultiValue)
+Requires: perl(JSON::MaybeXS)
+Requires: perl(Module::Refresh)
+Requires: perl(POSIX::strftime::Compiler)
+Requires: perl(Stream::Buffered)
+Requires: perl(URI::Escape)
+Requires: perl(WWW::Form::UrlEncoded)
 BuildRequires : buildreq-cpan
 BuildRequires : perl(Apache::LogFormat::Compiler)
 BuildRequires : perl(Cookie::Baker)
