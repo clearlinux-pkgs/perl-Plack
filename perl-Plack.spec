@@ -4,7 +4,7 @@
 #
 Name     : perl-Plack
 Version  : 1.0048
-Release  : 10
+Release  : 11
 URL      : https://cpan.metacpan.org/authors/id/M/MI/MIYAGAWA/Plack-1.0048.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/MI/MIYAGAWA/Plack-1.0048.tar.gz
 Summary  : 'Perl Superglue for Web frameworks and Web Servers (PSGI toolkit)'
