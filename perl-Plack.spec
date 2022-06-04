@@ -4,7 +4,7 @@
 #
 Name     : perl-Plack
 Version  : 1.0048
-Release  : 13
+Release  : 14
 URL      : https://cpan.metacpan.org/authors/id/M/MI/MIYAGAWA/Plack-1.0048.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/MI/MIYAGAWA/Plack-1.0048.tar.gz
 Summary  : 'Perl Superglue for Web frameworks and Web Servers (PSGI toolkit)'
@@ -245,75 +245,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/HTTP/Message/PSGI.pm
-/usr/lib/perl5/vendor_perl/5.34.0/HTTP/Server/PSGI.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/App/CGIBin.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/App/Cascade.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/App/Directory.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/App/File.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/App/PSGIBin.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/App/URLMap.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/App/WrapCGI.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Builder.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Component.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/HTTPParser.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/HTTPParser/PP.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Handler.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Handler/Apache1.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Handler/Apache2.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Handler/Apache2/Registry.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Handler/CGI.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Handler/FCGI.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Handler/HTTP/Server/PSGI.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Handler/Standalone.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/LWPish.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Loader.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Loader/Delayed.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Loader/Restarter.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Loader/Shotgun.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/MIME.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/AccessLog.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/AccessLog/Timed.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/Auth/Basic.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/BufferedStreaming.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/Chunked.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/Conditional.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/ConditionalGET.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/ContentLength.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/ContentMD5.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/ErrorDocument.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/HTTPExceptions.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/Head.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/IIS6ScriptNameFix.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/IIS7KeepAliveFix.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/JSONP.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/LighttpdScriptNameFix.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/Lint.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/Log4perl.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/LogDispatch.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/NullLogger.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/RearrangeHeaders.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/Recursive.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/Refresh.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/Runtime.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/SimpleContentFilter.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/SimpleLogger.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/StackTrace.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/Static.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/XFramework.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Middleware/XSendfile.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Request.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Request/Upload.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Response.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Runner.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/TempBuffer.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Test.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Test/MockHTTP.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Test/Server.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Test/Suite.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Util.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Plack/Util/Accessor.pm
-/usr/lib/perl5/vendor_perl/5.34.0/auto/share/dist/Plack/baybridge.jpg
-/usr/lib/perl5/vendor_perl/5.34.0/auto/share/dist/Plack/face.jpg
+/usr/lib/perl5/*
